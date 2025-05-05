@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    /* border: 1px solid black; */
+}
+p{
+    color: gray;
+}
+.FirstBox{
+    padding: 20px;
+    background-image: url('images/bg-hero-desktop.svg');
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.header img{
+    margin-left: 40px;
+    width: 10%;
+    height: 20%;
+    margin-bottom: 60px;
+}
+.header button{
+    height: fit-content;
+    align-self: center;
+    border-radius:20px ;
+    padding: 10px;
+    width: 10%;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 2px;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+.FirstContent{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.content{ 
+    width: 28%;
+    font-size: 15px;
+    margin-left: 40px;
+}
+.content button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(224, 66, 164);
+    border: none;
+}
+.content a{
+    text-decoration: none;
+    color: white;
+}
+.FirstContent img{
+    width: 30%;
+    height: fit-content;
+}
+.SecondBox{
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px gray;
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items:center ;  
+    justify-content: space-between;
+    padding: 20px;
+}
+.SecondBox img{
+    width: 30%;
+}
+.SecondContent{
+    width: 35%;
+    font-size: 14px;
+    margin-left: 50px;
+}
+.ThirdBox{
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px gray;
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items:center ;  
+    justify-content: space-between;
+    padding: 20px;
+}
+.ThirdBox img{
+    width: 30%;
+}
+.ThirdContent{
+    width: 30%;
+    font-size: 14px;
+    margin-right: 50px;
+}
+.FourthBox{
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px gray;
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items:center ;  
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 120px;
+}
+.FourthBox img{
+    width: 30%;
+}
+.FourthContent{
+    width: 35%;
+    font-size: 14px;
+    margin-left: 50px;
+}
+.FifthContent{
+    background-color: white;
+    position: relative;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items:center ;  
+    padding: 20px;
+    margin-top: -250px;
+}
+.FifthContent a{
+    text-decoration: none;
+    color: white;
+}
+.FifthContent button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(224, 66, 164);
+    border: none; 
+}
+footer{
+    position: relative;
+    border: 1px solid black;
+    padding-top: 150px;
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    flex-direction: column;
+}
+
+.FooterContent{
+    display: flex;
+    justify-content: space-around;
+    color:hsl(208, 11%, 55%);
+    margin: 50px;
+    width: 80%;
+    align-self: center;
+    margin-bottom: 0;
+}
+.FooterFirst{
+    width: 30%;
+    display: flex;
+    gap: 5px;
+}
+.FooterFirst img{
+    width: fit-content;
+    height: fit-content;
+    margin-right: 10px;
+}
+ul{
+    margin-top: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+a{
+    color: hsl(208, 11%, 55%);
+    text-decoration: none;
+}
+footer a:hover{
+    color: white;
+}
+.sociallogos{
+    display: flex;
+    width: 2%;
+    height: 4%;
+    gap: 10px;
+}
+.FB{
+    border: 1px white solid;
+    border-radius: 100px ;
+    padding: 2px;
+}
+.X{
+    border: 1px white solid;
+    border-radius: 100px ;
+    padding: 2px;
+}
+.IG{
+    border: 1px white solid;
+    border-radius: 100px ;
+    padding: 2px;
+}
+.FooterSecond{
+    width: 70%;
+    display: flex;
+    align-self: center;
+    gap: 5px;
+    color: hsl(208, 11%, 55%);
+}
+.FooterSecond img{
+    margin-right:10px ;
+}
+.FooterThird{
+    width: 70%;
+    display: flex;
+    align-self: center;
+    gap: 5px;
+    color: hsl(208, 11%, 55%);
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.FooterThird img{
+    margin-right:10px ;
+}
+.copyright{
+    margin-left: auto;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
